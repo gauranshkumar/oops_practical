@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[10][10],arr2[10][10];
+    int arr[10][10];
     int row,col,i,j;
     cout<<"Enter the size of matrix (row x col) : ";
     cin>>row>>col;
@@ -23,16 +23,6 @@ int main()
             cout<<arr[i][j]<<"\t";
         }
         cout<<endl;
-    }
-
-
-
-    for(i=0; i<row; i++)
-    {
-        for(j=0; j<col; j++)
-        {
-            arr2[j][i]=arr[i][j];
-        }
     }
 
     cout<<endl<<"Transposed Matrix : "<<endl;
